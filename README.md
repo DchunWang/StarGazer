@@ -1,2 +1,2 @@
 # StarGazer
-#it is my first repository on GitHub.
+#It is my first repository on GitHub.
