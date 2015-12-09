@@ -1,2 +1,2 @@
 # StarGazer
-#it is my frist repository on GitHub.
+#it is my first repository on GitHub.
