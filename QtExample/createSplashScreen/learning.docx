@@ -1,0 +1,23 @@
+Qt学习笔记NO001
+
+——程序启动画面（QSplashScreen）
+
+功能：利用Qt中提供的QSplashScreen类来实现在程序启动过程中显示启动画面的功能
+
+1、例子只是简单地显示了程序启动程序，所以主窗口非常简略地设置了一个文本编辑框为主窗口
+
+2、注意：调用Sleep()函数，使主窗口程序在初始化时休眠几分钟，这里注意要包含头文件   #include <window.h> （？有疑问）
+
+//sleep( ms)
+//Sleeps for ms milliseconds without processing Qt events.
+
+3、而最主要的创建启动程序，则是利用QSplashScreen类来实现，也即创建一个QSplashScreen对象，将其设置在程序启动之前显示
+
+4、而为了能够使得程序在显示启动画面的同时仍能够相应鼠标等其它事件，需调用QApplication对象a的processEvents()函数
+
+5、为了在主窗体对象初始化完成后结束画面，需要调用QSplashScreen对象的finish(&w)函数，否则会一直存在，知道你点击那个画面
+
+//void QSplashScreen::finish(QWidget * mainWin)
+//Makes the splash screen wait until the widget mainWin is displayed before calling close() on itself.
+
+6、另外，需将图片myPic.png添加到release文件夹中
