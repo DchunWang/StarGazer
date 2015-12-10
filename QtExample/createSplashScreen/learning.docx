@@ -15,7 +15,7 @@ Qt学习笔记NO001
 
 4、而为了能够使得程序在显示启动画面的同时仍能够相应鼠标等其它事件，需调用QApplication对象a的processEvents()函数
 
-5、为了在主窗体对象初始化完成后结束画面，需要调用QSplashScreen对象的finish(&w)函数，否则会一直存在，知道你点击那个画面
+5、为了在主窗体对象初始化完成后结束画面，需要调用QSplashScreen对象的finish(&w)函数，否则会一直存在，直到你点击那个画面
 
 //void QSplashScreen::finish(QWidget * mainWin)
 //Makes the splash screen wait until the widget mainWin is displayed before calling close() on itself.
