@@ -12,7 +12,7 @@ import java.awt.event.*;
 import java.io.*;
 import javax.swing.*;
 
-public class night20151212
+public class NO2abbreviate
 {
 	public static void main(String [] args)
 	{
