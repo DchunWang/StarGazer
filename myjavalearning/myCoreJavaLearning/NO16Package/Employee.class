@@ -1,0 +1,47 @@
+package mydictum;
+
+//the classes in this file are part of this package
+
+//import statements come after the package statement
+import java.util.*;
+
+/**
+ *@page 138
+ *@author wangdch
+ *@date 2015-12-16
+ */
+
+public class Employee
+{
+	private String name;
+	private double salary;
+	private Date hireDay;
+	
+	public Employee(String n, double s, int year, int month, int day)
+	{
+		name = n;
+		salary = s;
+		//GregorianCalendar uses 0 for January
+		GregorianCalendar calendar = new GregorianCalendar(year, month-1, day);
+		hireDay = calendar.getTime();
+	}
+	
+	public String getName()
+	{
+		return name;
+	}
+	public double getSalary()
+	{
+		return salary;
+	}
+	public Date getHireDay()
+	{
+		return hireDay;
+	}
+	
+	public void raiseSalary(double byPercent)
+	{
+		double raise = salary * byPercent / 100;
+		salary += raise;
+	}
+}
