@@ -35,7 +35,7 @@ public class ObjectAnalyzer
 				if(i > 0)
 					r += ",";
 				Object val = Array.get(obj, i);
-				if((c1.getComponentType().isPrimitive())
+				if(c1.getComponentType().isPrimitive())
 						r += val;
 				else
 					r += toString(val);
@@ -50,7 +50,7 @@ public class ObjectAnalyzer
 		{
 			r += "[";
 			Field [] fields = c1.getDeclaredFields();
-			AccessibleObject.setAccessible(fields,  trur);
+			AccessibleObject.setAccessible(fields,  true);
 			//get the names and values of all fields
 			for(Field f : fields)
 			{
@@ -70,7 +70,7 @@ public class ObjectAnalyzer
 					}
 					catch(Exception e)
 					{
-						e.printStackTrace(arg0);;
+						e.printStackTrace();
 					}
 				}
 			}
