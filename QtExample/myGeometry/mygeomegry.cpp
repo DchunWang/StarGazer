@@ -24,6 +24,8 @@ myGeomegry::myGeomegry(QWidget *parent)
     heightValueLabel = new QLabel;
     rectLabel = new QLabel(tr("rect():"));
     rectValueLabel = new QLabel;
+    sizeLabel = new QLabel(tr("size():"));
+    sizeValueLabel = new QLabel;
 
     //完成对窗口界面的布局
     mainLayout = new QGridLayout(this);
