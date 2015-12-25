@@ -13,5 +13,20 @@
     
     5、绘图区类paintArea中声明了一个枚举类型Shape，列举了所有本实例可能用到的图形形状，要注意枚举类型的使用方式。
     
-    6、
+    6、利用QPainter类对象的各个draw()函数可以完成各种图形的绘制
+        drawLine()、drawRect()、drawRoundRect()、drawEllipse()、drawPolygon()、drawPolyline()、drawPoints()、
+        drawArc()、drawPath()、drawText()、drawPixmap()等等，但要注意其中所要求的参数类型及个数！
+    
+    7、用QPainter画弧形所用的角度值是以1/16为单位的，也即画弧时1度用16表示，也即要乘以16。
+    
+    8、利用QPainterPath类也可以绘制各种简单图形，QPainterPath类为QPainter类提供了一个存储容器，里面包含了所要绘制的
+        内容的集合集绘制的顺序；QPainterPath类提供了许多add()函数接口，可以很方便地加入一些规则图形。
+        
+    9、QComboBox类的itemData()方法返回当前显示的下拉列表框数据，是一个QVariant对象，而通过进一步的调用
+        QVariant类的toInt()函数，可以获得此数据在枚举型数据集合(下拉列表框)中的序号。
+        
+    10、通过获取画笔的属性值、包括画笔颜色、画笔线宽、画笔风格、画笔顶帽及画笔连接点，共同构成QPen对象
+        也即QPen(QCoor color, int value, Qt::PenStye style, Qt::PenCapStyle cap, Qt::PenJoinStyle join)。
+        
+    
         
