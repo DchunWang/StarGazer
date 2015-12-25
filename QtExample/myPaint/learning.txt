@@ -1,0 +1,17 @@
+学习总结：
+
+    1、绘图区与主窗口是两个不同的类，通过在主窗口程序中创建一个绘图区的类对象，进而将该绘图区添加到主窗口中；
+        当然，右边部分则是通过一个QGridLayout布局将其添加到主窗口中的。
+        
+    2、绘图区中图形的显示通过事件与槽机制实现交互。
+    
+    3、注意：QComboBox的SIGNAL是activated(int)
+            QPushButton的SIGNAL是clicked()
+            QSpinBox的SIGNAL是valueChanged(int)
+            
+    4、绘图区类paintArea是继承自QWidget类的，其中重载了paintEvent()的重画事件
+    
+    5、绘图区类paintArea中声明了一个枚举类型Shape，列举了所有本实例可能用到的图形形状，要注意枚举类型的使用方式。
+    
+    6、
+        
