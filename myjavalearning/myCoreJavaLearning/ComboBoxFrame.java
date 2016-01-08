@@ -48,6 +48,5 @@ public class ComboBoxFrame extends JFrame
 		comboPanel.add(faceCombo);
 		add(comboPanel, BorderLayout.SOUTH);
 		pack();
-		
 	}
 }
