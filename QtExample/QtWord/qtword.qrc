@@ -1,0 +1,26 @@
+﻿<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+        <file>image/editCopy.png</file>
+        <file>image/editCut.png</file>
+        <file>image/editPaste.png</file>
+        <file>image/editRedo.png</file>
+        <file>image/about.png</file>
+        <file>image/aboutQt.png</file>
+        <file>image/bold.png</file>
+        <file>image/center.png</file>
+        <file>image/editUndo.png</file>
+        <file>image/exit.png</file>
+        <file>image/fileNew.png</file>
+        <file>image/fileOpen.png</file>
+        <file>image/filePrint.png</file>
+        <file>image/filePrintPre.png</file>
+        <file>image/fileSave.png</file>
+        <file>image/fileSaveAs.png</file>
+        <file>image/italic.png</file>
+        <file>image/justify.png</file>
+        <file>image/leftAlign.png</file>
+        <file>image/rightAlign.png</file>
+        <file>image/underline.png</file>
+</qresource>
+</RCC>
+

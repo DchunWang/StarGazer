@@ -8,6 +8,9 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
+//添加QtPrintSupport模块支持
+qtHaveModule(printsupport): QT += printsupport
+
 TARGET = QtWord
 TEMPLATE = app
 
@@ -18,3 +21,6 @@ SOURCES += main.cpp\
 
 HEADERS  += qtword.h \
     mychild.h
+
+RESOURCES += \
+    qtword.qrc
