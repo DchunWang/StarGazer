@@ -1,0 +1,21 @@
+﻿<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/">
+    <file>images/NO1.png</file>
+    <file>images/NO2.png</file>
+    <file>images/NO3.png</file>
+    <file>images/NO4.png</file>
+    <file>images/NO5.png</file>
+    <file>images/NO6.png</file>
+    <file>images/NO7.png</file>
+    <file>images/NO8.png</file>
+    <file>images/NO9.png</file>
+    <file>images/bold.png</file>
+    <file>images/clear.png</file>
+    <file>images/italic.png</file>
+    <file>images/save.png</file>
+    <file>images/send.png</file>
+    <file>images/under.png</file>
+    <file>images/color.png</file>
+    <file>images/sendDia.png</file>
+    </qresource>
+</RCC>
