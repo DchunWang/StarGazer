@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>hello_my_world.qml</file>
+        <file>rectangle.qml</file>
+        <file>second.qml</file>
+        <file>three.qml</file>
+    </qresource>
+</RCC>
