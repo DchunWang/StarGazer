@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>z_opacity.qml</file>
+        <file>item.qml</file>
+        <file>anchors.qml</file>
+        <file>anchors2.qml</file>
+        <file>key_action.qml</file>
+        <file>text_wrap.qml</file>
+        <file>richText.qml</file>
+        <file>textStyle.qml</file>
+        <file>button.qml</file>
+        <file>buttonStyle.qml</file>
+        <file>btnStyle.qml</file>
+        <file>showNetImage.qml</file>
+    </qresource>
+</RCC>

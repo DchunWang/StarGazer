@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/pic1.jpg</file>
+        <file>images/pic2.png</file>
+        <file>images/pic3.jpg</file>
+        <file>images/pic4.jpg</file>
+        <file alias="fic">images/pic5.jpg</file>
+    </qresource>
+</RCC>
