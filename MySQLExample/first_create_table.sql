@@ -11,3 +11,4 @@ CREATE TABLE employee
 	sex				 VARCHAR(5) NOT NULL,
 	CONSTRAINT office_fk FOREIGN KEY(officeCode) REFERENCES offices(officeCode)
 );
+
